@@ -21,5 +21,3 @@ elif operation=="*":
     print(f"the multiplication of two nimbers is "{num1}*{num2})
 elif operation=="/":
     print(f"the division of two numbers is"{num1}/{num2})
-
-
