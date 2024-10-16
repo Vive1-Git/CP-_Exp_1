@@ -1,1 +1,25 @@
+# Number is even or odd:
+num=int(input("Enter a number:"))
+    if num%2==0:
+        print("It is an even number")
+    else:
+        print("It is an odd number")
+ 
+# Simple calculator using a conditional statements:
+num1=int(input("Enter a number:")
+num2=int(inout("Enter another number:")
+print('''for adding the numbers enter: + 
+for subtracting the numbers enter:  -
+for multiplying the numbers enter: * 
+for dividing the numbers enter: / ''')
+operation=input("Enter here:")
+if operation=="+":
+    print(f"the addition of numbers is"{num1}+{num2})
+elif operation=="-":
+    print(f"the subtraction of numbers is" {num1}-{num2})
+elif operation=="*":
+    print(f"the multiplication of two nimbers is "{num1}*{num2})
+elif operation=="/":
+    print(f"the division of two numbers is"{num1}/{num2})
+
 
