@@ -1,1 +1,15 @@
+# Function to check palindrome:
+
+def isPalindrome(s):
+    return s == s[::-1]
+
+s = "abcdcba"
+ans = isPalindrome(s)
+
+if(ans==1):
+    print("It is a palimdrome")
+else:
+    print("It is not a palindrome")
+
+# 
 
