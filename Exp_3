@@ -11,5 +11,36 @@ if(ans==1):
 else:
     print("It is not a palindrome")
 
-# 
+# Performing various operations on a string:
 
+list1 = [1,2,3,4,5,2,3,2,4]
+
+# slicing a list
+list2=list1.[2,5]
+
+# appending an element
+list1.append(6)
+
+# Inserting an element at specific position
+list1.insert(1, 1.5)
+
+# Remove an element
+list1.remove(4)
+
+# To clear list
+list1.clear() 
+
+# To find the index of a value
+index = list1.index(5)
+
+# Count occurrences of a value
+numcount= list1.count(2)
+
+# Sort the list
+list1.sort()
+
+# For arranging in decreasing order
+list1.reverse=true()
+
+# To reverse the list
+list1.reverse()
