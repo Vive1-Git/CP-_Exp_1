@@ -1,1 +1,12 @@
+#Using the created module(Mathematicalmodule):
+'''importing Mathematical module'''
 
+import Mathematicalmodule as mm
+
+print(mm.add(3,6))
+print(mm.subtract(63,36))
+print(mm.multiply(4,8))
+print(mm.divide(60,5))
+print(mm.modulus(68,5))
+print(mm.square(7))
+print(mm.square_root(81))
