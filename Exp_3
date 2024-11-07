@@ -45,7 +45,7 @@ list1.reverse=true()
 # To reverse the list
 list1.reverse()
 
-# Using dictionary to store student's grade nad retrieve:
+# Using dictionary to store student's grade and retrieve:
 
 studentsgrade={}
 # num=int(input("Enter the number of students:"))
