@@ -1,4 +1,39 @@
+'''Created a class book with attributes and methods,implemented inheritance by creating subclasses for diiferent types of books:
+class Book:'''
+    def __init__(self,author,language):
+        self.author=author
+        self.language=language
 
+    def show_details(self):
+        print("Author = ",self.author)
+        print("Language = ",self.language)
+
+class Ebook(Book):
+    def __init__(self,author,language,total_pages,file_size):
+        super().__init__(author,language)
+        self.total_pages=total_pages
+        self.file_size=file_size
+
+    def show_details(self):
+        super().show_details()
+        print("total no. of pages = ",self.total_pages)
+        print("file size = ",self.file_size,"mb")
+
+class Physical_book(Book):
+    def __init__(self,author,title,total_pages,weight):
+        super().__init__(author,title)
+        self.total_pages=total_pages
+        self.weight=weight
+
+    def show_details(self):
+        super().show_details()
+        print("total no. of pages = ",self.total_pages)
+        print("weight = ", self.weight,"grams")
+
+ebook1=Ebook("Mark lutz","python",1200,820)
+pbook1=Physical_book("suresh sharma","Data structures & algorithm",725,200)
+ebook1.show_details()
+pbook1.show_details()
 
 # Using generator function to generate the Fibonacci series:
 def fibonacci_generator(n):
