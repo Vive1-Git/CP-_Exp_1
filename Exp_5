@@ -1,4 +1,34 @@
+'''Using lambda functions,map and filter to perform operations on a list'''
 
+#lambda function:
+
+add=lambda a,b : a+b
+print(add(4,6))
+
+multiply=lambda a,b : a*b
+print(multiply(5,8))
+
+square=lambda a : a**2
+print(square(9))
+
+#Using map function:
+
+lista=[1,2,3,4,5,6,7,8,9,10]
+
+def square(a):
+    return a*a
+
+squared_no=map(square,lista)
+print(list(squared_no))
+
+#Using filter function:
+
+listb=[1,2,3,4,5,6,7,8,9,10]
+
+def odd(n):
+    return n%2!=0
+
+print(list(filter(odd,listb)))
 
 #Using the created module(Mathematicalmodule):
 '''importing Mathematical module'''
