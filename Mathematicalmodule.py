@@ -1,4 +1,4 @@
-'''Creating module that contains functions for mathematical operations'''
+'''Created module that contains functions for mathematical operations'''
 
 def add(a,b):
     return a+b
