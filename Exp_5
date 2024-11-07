@@ -1,3 +1,5 @@
+
+
 #Using the created module(Mathematicalmodule):
 '''importing Mathematical module'''
 
@@ -10,3 +12,19 @@ print(mm.divide(60,5))
 print(mm.modulus(68,5))
 print(mm.square(7))
 print(mm.square_root(81))
+
+'''Importing and using functions from external packages(math & random):'''
+
+import math
+
+print(math.sqrt(81))
+print(math.cos(0))
+print(math.ceil(8.42))
+print(math.pow(3,5))
+
+import random
+
+print(random.randint(1,100))
+print(random.choice((1,2,4,6,8)))
+print(random.uniform(2,200))
+print(random.random())
